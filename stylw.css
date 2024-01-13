@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    background-color: #3262a8;
+    height: 11vh;
+    width: 100vw;
+    display: flex;
+}
+ul{
+    display: flex;
+    align-items: center;
+}
+ul li{
+    margin: 0 1em;
+    list-style: none;
+    color: #fff;
+    font-size: 1.6rem;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 464px) {
+    nav{
+        flex-direction: column;
+        margin: 0 0.3rem;
+        height: 20vh;
+    }
+    ul {
+      flex-direction: column;
+    }
+  }
+
+
+  .items-container{
+    width: 100vw;
+    height: 80vh;
+    font-size: 1rem;
+    display: flex;
+  }
+  .item-card{
+    height: 45vh;
+    background: beige;
+    width: 40vw;
+    margin: 1rem 1rem;
+  }
+  #title{
+    text-align: center;
+  }
+  img{
+    width: 60%;
+    height: 60%;
+    display: block;
+    margin: auto;
+  }
+  .categoryname{
+    text-align: center;
+    margin: 0.6rem 0;
+    font-size: 1.3rem;
+  }
